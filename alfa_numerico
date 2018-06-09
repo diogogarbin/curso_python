@@ -1,0 +1,47 @@
+#!/usr/bin/python3
+
+#x = ord('a') 
+#print(x)
+# mostra o a ordem númerica da leetra "a"
+
+#letras = []
+#for x in range(97,97 + 26) #Inicia no 97 e vi do 97 mais 26 posições
+#    letras.append(chr(x)) #chr converte a posição nas letra
+
+#print(letras)
+
+#contador = 0
+#while contador <10;
+#    print('ola')
+#    contador += 1
+
+#____________________________________________________________________________________________________
+#qtd = int(input("digite um inteiro: "))
+#for z in range(qtd):
+#    if z == 100:
+#        break
+#else:                         #else do for, se não encontrar a condição do breake ele cai no else
+#    print('não encontrei')
+#_____________________________________________________________________________________________________
+
+#with open('teste.txt', 'a+') as arquivo:
+ #   for x in arquivo.readlines():   IMPORTANTE
+  #      print(x.replace('oque quero trocar', 'oque vai substituir'))
+
+##read() ler arquivo inteiro
+#readline ler linha do arquivo
+#readlines ler arquivo inteiro como linhas
+#split faz de um arquivo virar uma lista
+
+#Abrir um arquivo não existente, e adicionar nomes em um loop até que o usuário digite sair
+
+with open ('exercicio.txt' , 'a+' ) as i:
+    while True:
+        nome = input("Digite o nome: ")
+        if nome.lower() == 'sair':
+            break
+        i.write(nome + '\n')
+
+        
+
+
