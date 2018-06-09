@@ -42,6 +42,6 @@ with open ('exercicio.txt' , 'a+' ) as i:
             break
         i.write(nome + '\n')
 
-        
-
+         
+ 
 
